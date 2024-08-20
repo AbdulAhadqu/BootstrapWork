@@ -1,0 +1,145 @@
+.hero-section{  
+     /* background-image: url(Images/image\ 54.png); */
+     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Images/image\ 54.png);
+
+     background-size: cover;
+     background-repeat: no-repeat;
+     /* background-position:center; */
+     height:100vh;
+
+     background-image: linear-gradient(to bottom rgb(172, 168, 168));
+    
+
+    
+}
+.first_Img{
+     background-image: url(Images/Rectangle\ 4534.png);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+}
+
+.second_Img{
+     background-image: url(Images/image\ 73.png);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     width: 50%
+}
+.borderTopleft{
+border-top-left-radius: 10px;
+}
+.borderTopright{
+     border-top-right-radius: 10px;
+}
+.borderBottomleft{
+     border-bottom-left-radius: 10px;
+}
+.bottomBottomright{
+     border-bottom-right-radius: 10px;
+}
+.TrymyLuckBtn{
+     height: 4.3rem;
+}
+
+.Name_badge{
+     position: relative;
+
+}
+.Name_badge_pic{
+     box-shadow: 0px 5px 10px gray;
+     border-radius: 10px;
+}
+.Testimonial_pic{
+     position: absolute; 
+     translate: 8rem -12rem;
+}
+.badge_text{
+     height: 5rem;
+     width: 15rem;
+     margin-left: 7rem;
+     font-size: smaller;
+}
+
+/* ===========media query============= */
+
+
+@media (min-width:992px){
+   .navbar_main_ul{
+    font-size: 1rem; 
+}
+     
+}
+@media(max-width:786px){
+     .fit_content{
+       
+        width: 100%;
+     }
+     .banner_text{
+          margin: 3rem;
+     }
+     .social_media_icons
+     {
+          display: none;
+     }
+}
+ @media (min-width: 786px){
+          .banner_text{
+               margin-left: 8rem !important;
+          }
+     }
+/* @media (min-width: 576px){
+          --bs-nav-underline-link-active-color: var(--bs-emphasis-color);
+     } */
+
+@media  (max-width:576px){
+
+.banner_text{
+     margin: 1.5rem 0;
+}
+.Name_badge_pic{
+     width: 100%;
+     height: 100%;
+}
+.Testimonial_pic_image{
+     width: 100%;
+     height: 100%
+}
+.Testimonial_pic{
+height: 8.5rem;
+width: 8.5rem;
+translate: 9rem -14rem;
+}
+
+.Name_badge{
+     height: 18rem;
+     width: 15rem;
+}
+.badge_text{
+     height: 5rem;
+     width: 15rem;
+     margin-left: 5rem;
+     
+}
+
+
+}
+
+@media  (max-width:375px){
+
+     .Testimonial_pic{
+     height: 6.5rem;
+     width: 6.5rem;
+     translate: 7rem -11rem;
+     }
+     
+     .Name_badge{
+          height: 15rem;
+          width: 12rem;
+     }
+    
+     }
+     
+  
+     
+     
