@@ -13,44 +13,57 @@
     <title>Lucki Traders</title>
   </head>
   <body>
-    <div class="hero-section text-center text-light px-3 ">
+    <div class="hero-section text-center text-light px-lg-4 px-md-3  ">
       <nav
-        class="navbar navbar-dark nav-underline navbar-expand-lg px-auto px-lg-5 d-flex justify-content-between align-items-center pt-4 z-1">
+        class="navbar navbar-dark nav-underline navbar-expand-lg px-1 px-sm-3 px-md-4 px-lg-5 d-flex justify-content-between align-items-center pt-3 pt-sm-4 pt-md-5 z-1 ">
         <!-- <div class="container-fluid"> -->
-        <div class="navbar-brand  ">
+        <div class="navbar-brand nav_logo_div ">
           <img src="Images/Frame 8.png" alt="logo" height="100%" width="100%"/>
         </div>
         <button class="navbar-toggler d-lg-none "  data-bs-toggle="offcanvas" data-bs-target="#Main_offcanvas"><i class="navbar-toggler-icon"></i></button>
-        <div class="offcanvas offcanvas-end  text-bg-dark ms-5 " id="Main_offcanvas" data-bs-scroll="true">
+        <div class="offcanvas offcanvas-end  text-bg-dark ms-5 " id="Main_offcanvas" >
           <div class="offcanvas-title d-lg-none d-flex justify-content-between">
             <img src="Images/Frame 9.png" alt="logo" class="ms-3 mt-3">
             <button type="button" class="btn-close btn-close-white mt-3 me-3" aria-label="Close" data-bs-dismiss="offcanvas" ></button>
 
           </div>
-          <div class="offcanvas-body d-flex justify-content-lg-end justify-content-center  " >
-          <ul class=" navbar-nav navbar_main_ul d-flex gap-4 gap-md-1 gap-lg-3 gap-xl-5  ">
+          <div class="offcanvas-body d-flex justify-content-lg-end justify-content-start  " >
+          <ul class=" navbar-nav navbar_main_ul text-start ms-3 ms-lg-0 d-flex gap-5 gap-md-2 gap-lg-3 gap-xl-4 fw-light" style="font-size: 0.9rem;">
             <li class="nav-item">
-              <a href="#" class="nav-link text-warning active">Loyalty Program</a>
+              <a href="#" class="nav-link  nav_Links  ">Loyalty Program</a>
+            </li>
+            <li class="nav-item dropdown" >
+              <button class="btn btn-dark text-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-offset="10,20" style="background: transparent; border:none; padding-inline: 0;">Feeling Lucky</button>
+               <ul class=" dropdown-menu dropdown-menu-dark">
+                <li class="dropdown-item">Yess</li>
+                <li class="dropdown-item">No</li>
+                <li class="dropdown-item">May be</li>
+
+               </ul>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link text-secondary">Feeling Lucky</a>
+              <a href="#" class="nav-link nav_Links">About</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link text-secondary">About</a>
+              <a href="#" class="nav-link nav_Links ">Stories</a>
             </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link text-secondary">Stories</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link text-light">
-                <img src="Images/Vector.png" alt="globe" />
-                Eng
-              </a>
-            </li>
+            
+               
+                <li class="nav-item dropdown">
+                  <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"  data-bs-offset="10,20"style="background: transparent; border: none;padding-inline: 0;">
+                    <img src="Images/Vector.png" alt="globe" />
+                    ENG
+                  </button>
+                  <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="#">English</a></li>
+                    <li><a class="dropdown-item" href="#">Urdu</a></li>
+                    <li><a class="dropdown-item" href="#">Arabic</a></li>
+                  </ul>
+                </li>
             <li class="nav-item">
               <button
                 type="button"
-                class="btn btn-warning px-lg-3 py-lg-2 rounded-3 fw-medium"
+                class="btn  rounded-3 fw-medium" style="background-color: #FFD700; padding: 10px 17px; border-radius: 12px;"
               >
                 Get Started
               </button>
@@ -64,30 +77,29 @@
       <div
         class="container d-flex flex-column justify-content-center align-items-center h-100"
       >
-        <h1 class="display-4 fw-medium">Guess Gold Price,<span class="text-warning"> Win Jackpot</span></h1>
-        <p class="fs-5 text-light fw-normal">
+        <h1 class=" fw-medium mb-4 hero_section_heading " >Guess Gold Price,<span style="color: #FFD700;"> Win Jackpot</span></h1>
+        <p class="fw-normal mb-4 hero_section_text">
           Join the excitement of LuckiPrice and win big
         </p>
-        <button class="btn btn-warning rounded-3 fs-6 p-3">Try My Luck Now</button>
+        <button class="btn  fw-medium " style="background-color: #FFD700; padding: 12px 18px; font-size: 0.85rem; border-radius: 12px; ">Try My Luck Now</button>
       </div>
     </div>
 <div class="container-fluid">
-    <div class="row d-flex  flex-column flex-md-row ">
+    <div class="row d-flex  flex-column flex-md-row" >
       <div class="col-6 first_Img h-100 fit_content ">
-      <div class="col ms-2 ms-sm-5 d-flex flex-column justify-content-center align-items-start  gap-4 my-5 " >
-        <h1 class="h1 text-light display-4 fw-bolder">$100,000</h1>
-        <h5 class="h5 text-light">Enter LuckiPrice & get a chance to win</h5>
-        <img src="Images/Group 8825.png" alt="rating" height="60%" width="70%">
+      <div class="col ms-3 ms-sm-4 ms-md-5 d-flex  py-3 flex-column justify-content-around align-items-start  gap-5 my-5 " style="line-height:0rem;" >
+        <h1 class="h1 text-light banner_Price fw-bolder">$100,000</h1>
+        <h5 class=" Upper_banner_text"  style="color: rgba(255, 255, 255, 0.87);">Enter LuckiPrice & get a chance to win</h5>
+        <img src="Images/Group 8825.png" alt="rating" class="banner_Pic" height="60%" width="70%">
       </div>
       </div>
-      <div class="col-6 second_Img  fit_content" >
-        <div class="col ms-2 ms-sm-5 py-3 d-flex flex-column justify-content-center align-items-start gap-3"
-        style="line-height: 3rem;">
-          <h6 class="h5 text-light">22th LuckiPrice Result</h6>
-          <h1 class="h1 text-warning fw-bolder">$60,900</h1>
-          <img src="Images/Frame 427321193.png" alt="rating" height="40%" width="50%">
-          <img src="Images/Frame 427321194.png" alt="profiles" class="mx-3" height="40%" width="50%">
-          <button class="btn btn-warning fw-medium py-2 d-block">More Results</button>
+      <div class="col-6 second_Img  fit_content">
+        <div class="col ms-3 ms-sm-4 ms-md-5 py-4 d-flex flex-column justify-content-center align-items-start  px-0" style="gap: 1.7rem;">
+          <h5 class=" Upper_banner_text" style="color: rgba(255, 255, 255, 0.87);">22th LuckiPrice Result</h5>
+          <h1 class="h1 text-warning fw-bolder display-5">$60,900</h1>
+          <img src="Images/Frame 427321193.png" alt="rating" class="banner_Pic1" height="40%" width="50%">
+          <img src="Images/Frame 427321194.png" alt="profiles" class=" banner_Pic1 " height="40%" width="50%">
+          <button class="btn fw-medium p-2 px-sm-2 py-sm-2 py-md-2  px-md-3 d-block mt-3" style="background-color: #FFD700; border-radius: 11px; font-size: 0.9rem;">More Results</button>
         </div>
       </div>
     </div>
@@ -97,96 +109,98 @@
     <div class="col-11 d-flex flex-column justify-content-evenly align-items-center">
       <h2 class="h2">Our Recent Winners</h2>
        <h6 class="h6 mb-4 text-secondary">Congratulations to all our past winners</h6>
-     
-       <table class="table table-light rounded-3  table-hover">
-        <thead class="table-dark " >
-          <th class="borderTopleft">Name</th>
-          <th>Amount Won</th>
-          <th class="d-none d-sm-table-cell">Date</th>
-          <th class="borderTopright">LuckiPrice</th>
+       <div class="table-responsive w-100 ">
+       <table class="table table-light   rounded-3 table-hover px-5">
+        <thead  class="table-dark">
+          <th class="borderTopleft Body_table ps-md-5 fw-semibold  " style="background-color: #01224C;">Name</th>
+          <th class="Body_table fw-semibold " style="background-color: #01224C;">Amount Won</th>
+          <th class="Body_table fw-semibold " style="background-color: #01224C;">Date</th>
+          <th class="borderTopright Body_table fw-semibold " style="background-color: #01224C;">LuckiPrice</th>
         </thead>
         <tr>
-          <td class="border-start">
+          <tbody class="table_body_fontsize">
+          <td class="border-start ps-md-5">
+            <img src="Images/Ellipse 56.png" alt="pic">
+            John Doe
+          </td> 
+          <td >John Doe</td>
+          <td >March 1, 2023</td>
+          <td class="border-end">$15,417.51</td>
+
+        </tr>
+        <tr>
+          <td class="border-start ps-md-5">
             <img src="Images/Ellipse 56.png" alt="pic">
             John Doe
           </td>
           <td >John Doe</td>
-          <td class="d-none d-sm-table-cell">March 1, 2023</td>
+          <td >March 1, 2023</td>
           <td class="border-end">$15,417.51</td>
 
         </tr>
         <tr>
-          <td class="border-start">
-            <img src="Images/Ellipse 56.png" alt="pic">
-            John Doe
-          </td>
-          <td >John Doe</td>
-          <td class="d-none d-sm-table-cell">March 1, 2023</td>
-          <td class="border-end">$15,417.51</td>
-
-        </tr>
-        <tr>
-          <td class="border-start">
+          <td class="border-start ps-md-5">
             <img src="Images/Ellipse 56.png" alt="pic">
             John Doe
           </td>
           <td>John Doe</td>
-          <td class="d-none d-sm-table-cell">March 1, 2023</td>
+          <td >March 1, 2023</td>
           <td class="border-end">$15,417.51</td>
 
         </tr>
         <tr>
-          <td class="border-start ">
+          <td class="border-start ps-md-5">
             <img src="Images/Ellipse 56.png" alt="pic">
             John Doe
           </td>
           <td>John Doe</td>
-          <td class="d-none d-sm-table-cell">March 1, 2023</td>
+          <td>March 1, 2023</td>
           <td class="border-end ">$15,417.51</td>
 
         </tr>
         <tr>
-          <td class="border-start borderBottomleft">
+          <td class="border-start borderBottomleft ps-md-5 ">
             <img src="Images/Ellipse 56.png" alt="pic">
             John Doe
           </td>
           <td>John Doe</td>
-          <td class="d-none d-sm-table-cell">March 1, 2023</td>
+          <td >March 1, 2023</td>
           <td class="border-end bottomBottomright">$15,417.51</td>
 
         </tr>
+      </tbody>
        </table>
-      
+      </div>
     </div>
 
     </div>
   </div>
     <div class="container-fluid d-flex justify-content-center">
     <div class="row d-flex  flex-column align-items-center gap-4 w-100 mb-5 ">
-      <h1 class="h3 text-center ">How it Works</h1>
-      <p class="text-secondary fs-5 text-center">Trade, Earn, Enjoy</p>
+      <h1 class="h4 text-center mb-0 fw-semibold">How it Works</h1>
+      <p class="text-secondary fs-6 text-center">Trade  ,  Earn  ,  Enjoy</p>
      <div class="col-sm-11 d-flex  flex-column align-items-center">
       <div class="row w-100 d-flex flex-md-nowrap justify-content-center gap-4 mb-4">
-      <div class="col-md-6  border border-1 rounded-4 border-secondary-subtle d-flex flex-column justify-content-between gap-2 p-4" >
-        <div class="col-1 bg-primary-subtle  text-primary text-center fs-4 rounded-2 mt-3 fw-bold" style="height: 3rem; width: 4rem;">1</div>
-        <div class="h4">Earn Entries</div>
+      <div class="col-md-6  border border-1 rounded-4 border-secondary-subtle d-flex flex-column justify-content-between gap-3 p-4" >
+        <div class="col-1 bg-primary-subtle  text-primary d-flex justify-content-center align-items-center fs-4 rounded-2 mt-3 fw-bold" style="height: 4rem; width: 4rem;">1</div>
+        <div class="h4 my-3">Earn Entries</div>
         <p class="text-secondary">Accumulate LuckiBeans through trading. For every 300 LuckiBeans earned on our platform, you automatically receive one LuckiPrice entry. These entries allow you to participate in the jackpot without spending any LuckiBeans.</p>
       </div>
-      <div class="col-md-6 border border-1 rounded-4 border-secondary-subtle  d-flex flex-column justify-content-between gap-2 p-4">
-          <div class="col-1 bg-primary-subtle  text-primary text-center fs-4 rounded-2 mt-3 fw-bold" style="height: 3rem; width: 4rem;">2</div>
-          <div class="h4">Submit Your Guess</div>
+      <div class="col-md-6 border border-1 rounded-4 border-secondary-subtle  d-flex flex-column justify-content-between gap-3 p-4">
+          <div class="col-1 bg-primary-subtle  text-primary  d-flex justify-content-center align-items-center  fs-4 rounded-2 mt-3 fw-bold" style="height: 4rem; width: 4rem;">2</div>
+          <div class="h4 my-3">Submit Your Guess</div>
           <p class="text-secondary">Use your LuckiPrice entries to submit guesses on the closing price of a gold trade during our livestream. You can submit one guess per LuckiPrice entry.</p>
         </div>
       </div>
       <div class="row w-100 d-flex flex-md-nowrap justify-content-center gap-4">
-        <div class="col-md-6  border border-1 rounded-4 border-secondary-subtle d-flex flex-column justify-content-between gap-2 p-4" >
-          <div class="col-1 bg-primary-subtle  text-primary text-center fs-4 rounded-2 mt-3 fw-bold" style="height: 3rem; width: 4rem;">3</div>
-          <div class="h4">Earn Entries</div>
+        <div class="col-md-6  border border-1 rounded-4 border-secondary-subtle d-flex flex-column justify-content-between gap-3 p-4" >
+          <div class="col-1 bg-primary-subtle  text-primary d-flex justify-content-center align-items-center fs-4 rounded-2 mt-3 fw-bold" style="height: 4rem; width: 4rem;">3</div>
+          <div class="h4 my-2">Earn Entries</div>
           <p class="text-secondary">Accumulate LuckiBeans through trading. For every 300 LuckiBeans earned on our platform, you automatically receive one LuckiPrice entry. These entries allow you to participate in the jackpot without spending any LuckiBeans.</p>
         </div>
-        <div class="col-md-6 border border-1 rounded-4 border-secondary-subtle  d-flex flex-column justify-content-between gap-2 p-4">
-            <div class="col-1 bg-primary-subtle  text-primary text-center fs-4 rounded-2 mt-3 fw-bold" style="height: 3rem; width: 4rem;">4</div>
-            <div class="h4">Submit Your Guess</div>
+        <div class="col-md-6 border border-1 rounded-4 border-secondary-subtle  d-flex flex-column justify-content-between gap-3 p-4">
+            <div class="col-1 bg-primary-subtle  text-primary d-flex justify-content-center align-items-center fs-4 rounded-2 mt-3 fw-bold" style="height: 4rem; width: 4rem;">4</div>
+            <div class="h4 my-2">Submit Your Guess</div>
             <p class="text-secondary">Use your LuckiPrice entries to submit guesses on the closing price of a gold trade during our livestream. You can submit one guess per LuckiPrice entry.</p>
           </div>
         </div>
@@ -194,17 +208,18 @@
 </div>
 </div>
 <div class="container-fluid">
-    <div class="row d-flex flex-wrap pt-4 " style="background-image: linear-gradient(to right, #010006, #01224C);">
+    <div class="row d-flex flex-wrap pt-5 " style="background-image: linear-gradient(to right, #010006, #01224C);">
       <div class="col-md-6 col-12 d-flex align-items-md-center align-items-center">
-        <div class="row banner_text">
-        <h1 class="h1 text-light mb-4">
+        <div class="row banner_text d-flex align-items-center row-gap-4 py-3 ">
+        <h1 class="h1 text-light ">
           Ready to get started?
         </h1>
-        <p class="text-secondary fs-5" >
+        <p class=" fw-normal" style="color: rgba(255, 255, 255, 0.75); line-height:1.8rem; font-size: 1rem;">
+          
           Explore unique opportunities with our loyalty program. Participate in luck-based events and win amazing prizes!
 
         </p>
-        <button  class="btn w-50 fw-medium text-bg-warning  rounded-4 my-5 TrymyLuckBtn">Try My luck now</button>
+        <button  class="btn w-50  fw-medium  rounded-4  TrymyLuckBtn" style="background-color: #FFD700;">Try My luck now</button>
       </div>
       </div>
       <div class="col-md-6 col-12">
@@ -215,8 +230,8 @@
   </div>
     <div class="container-fluid ">
     <div class="row d-flex flex-column flex-wrap align-items-center  text-bg-light py-5">
-      <h2 class="h2 text-center">Testimonials</h2>
-      <p class="text-secondary text-center fs-5 fw-light">What Our Past Winners Says</p>
+      <h2 class="h4 text-center fw-semibold mb-3">Testimonials</h2>
+      <p class="text-secondary text-center fs-6 fw-light mb-4">What Our Past Winners Says</p>
     <div class="col d-flex flex-wrap justify-content-evenly align-items-center gap-5">
       <div class="col-12 col-xl-5 d-flex justify-content-center">
         <div class=" d-flex flex-wrap justify-content-start align-items-center ">
@@ -251,12 +266,12 @@
     </div>
     </div>
   </div>
-    <footer class="container-fluid px-1 px-sm-3 px-md-4 px-lg-5 pt-5" style="background-color: #0A0A1A;">
+    <footer class="container-fluid px-0 px-sm-3 px-md-4 px-lg-5 pt-5" style="background-color: #0A0A1A;">
       <div class="container-fluid">
-    <div class="row d-flex justify-content-between align-items-center px-4 px-md-0" style=" line-height: 2rem; ">
-      <div class=" col-12 col-md-4 ms-md-3">
-         <img src="Images/Frame 9.png" alt="logo" class="h-auto w-auto">
-         <p class="text-light fs-6 footer_text" style="color: rgba(255, 255, 255, 0.38)
+    <div class="row d-flex justify-content-between align-items-center px-4 px-md-0 footer-table" style=" line-height: 2rem; ">
+      <div class=" col-12 col-md-4 ms-md-3 ps-0">
+         <img src="Images/Frame 9.png" alt="logo" class=" footer_image mb-2 ">
+         <p class="   footer-table" style="color: rgba(255, 255, 255, 0.87)
 ;">If you love trading and enjoy the idea of earning rewards and winning prizes while doing it, Luckitrader is for you!</p>
          <div class="social_media_icons">
           <img src="Images/entypo-social_facebook.png" class="h-auto" alt="fb" >
@@ -264,46 +279,46 @@
           <img src="Images/lets-icons_insta-fill.png"  class="h-auto" alt="instagram"  >
          </div>
       </div>
-      <table class="col-12 col-md-6  " style="line-height: 2rem;
-      color: rgba(255, 255, 255, 0.38)
+      <table class="col-12 col-md-6 footer-table " style="
+      color: rgba(255, 255, 255, 0.87)
       ;">
-        <thead class=" table_head">
-          <tr>
-          <th class="text-warning fw-medium fs-sm-6" style="font-size: large;">COMPANY</th>
-          <th class="text-warning fw-medium"  style="font-size: large;">PRODUCTS</th>
-          <th class="text-warning fw-medium"  style="font-size: large;">DASHBOARD</th>
+        <thead class=" table_head " >
+          <tr style="line-height: 4.2rem;">
+          <th class="text-warning fw-medium footer_heading " >COMPANY</th>
+          <th class="text-warning fw-medium footer_heading " >PRODUCTS</th>
+          <th class="text-warning fw-medium footer_heading " >DASHBOARD</th>
         </tr>
         </thead>
         <tbody  class=" table-hover table_body" >
         <tr>
-          <td class="text-light">Home</td>
-          <td class="text-light">LuckiBeans</td>
-          <td class="text-light">Login /Signup</td>
+          <td class="">Home</td>
+          <td class="">LuckiBeans</td>
+          <td class="">Login /Signup</td>
 
         </tr>
         <tr>
-          <td class="text-light">About Us</td>
-          <td class="text-light">LuckiDraw</td>
-          <td class="text-light">Affiliate Program</td>
+          <td class="">About Us</td>
+          <td class="">LuckiDraw</td>
+          <td class=" ">Affiliate Program</td>
 
         </tr>
          <tr>
-          <td class="text-light">Blogs</td>
-          <td class="text-light">LuckiPrice</td>
-          <td class="text-light"></td>
-
+          <td class="">Blogs</td>
+          <td class="">LuckiPrice</td>
+          <td class="">Blogs</td>
         </tr>
         <tr>
-          <td class="text-light">Stories</td>
+          <td class="">Stories</td>
+          <td></td>
           <td></td>
 
         </tr>
         </tbody>
       </table>
     </div>
-    <div class="row d-flex justify-content-center mt-5 mx-md-3" >
+    <div class="row d-flex justify-content-center mt-5 mx-md-2" >
       <hr class="text-secondary">
-      <p class="text-light text-center ">
+      <p class=" text-center footer-table" style="color: rgba(255, 255, 255, 0.87);">
         Copyright 1978 - 2024   <span> | </span>    LuckiTrader    <span> | </span>   All Right Reserved
       </p>
     </div>
